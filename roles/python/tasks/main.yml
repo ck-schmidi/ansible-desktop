@@ -1,0 +1,7 @@
+- name: Install Python packages
+  apt:
+    pkg: 
+      - python
+      - python-dev
+      - python-pip
+

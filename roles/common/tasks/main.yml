@@ -1,0 +1,19 @@
+- name: Install common packages
+  apt:
+    pkg:
+      - git
+      - neovim
+      - neovim-qt
+      - tmux
+      - gimp
+      - i3-wm
+      - i3status
+      - curl
+      - rofi
+      - dmenu
+      - chromium-browser
+      - gimp
+      - rxvt-unicode
+
+- name: Upgrade installed packages
+  apt: upgrade=yes

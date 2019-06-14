@@ -1,0 +1,5 @@
+---
+
+dotfiles:
+  path: dotfiles
+  repo: git@github.com:ck-schmidi/dotfiles.git
